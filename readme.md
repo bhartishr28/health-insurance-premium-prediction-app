@@ -1,6 +1,6 @@
-🏥 **Health Insurance Premium Prediction App**
+# 🏥  **Health Insurance Premium Prediction App**
 
-📌 **Project Overview**
+## 📌 **Project Overview**
 
   This project is an end-to-end Machine Learning application that predicts health insurance premiums based on customer demographic, lifestyle, and medical information.
         
@@ -173,6 +173,7 @@ Overall model accuracy is high (R² ≈ 0.98)
 Majority of extreme errors came from age ≤ 25
 
 Separate modeling reduced extreme errors to < 1% for older age group
+
 
 
 
