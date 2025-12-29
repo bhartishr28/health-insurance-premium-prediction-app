@@ -3,7 +3,7 @@
 📌 **Project Overview**
 
   This project is an end-to-end Machine Learning application that predicts health insurance premiums based on customer demographic, lifestyle, and medical information.
-  
+        
   The solution uses XGBoost regression models and is deployed using Streamlit, allowing users to interactively input details and instantly receive premium predictions.
   
   To improve accuracy, separate models are built for different age groups, as error analysis showed higher variance among younger customers.
@@ -22,7 +22,7 @@
   
   Customers > 25 years
   
-  Robust preprocessing:
+ **Robust preprocessing:**
   
   One-hot encoding
   
@@ -40,29 +40,7 @@
   
   Input Features
   
-  Age
-  
-  Gender
-  
-  Region
-  
-  Marital Status
-  
-  Number of Dependants
-  
-  BMI Category
-  
-  Smoking Status
-  
-  Employment Status
-  
-  Income (Lakhs)
-  
-  Medical History
-  
-  Insurance Plan (Bronze / Silver / Gold)
-  
-  Genetical Risk Score
+  Age, Gender, Region, Marital Status, Number of Dependants, BMI Category, Smoking Status, Employment Status, Income (Lakhs), Medical History, Insurance Plan (Bronze / Silver / Gold), Genetical Risk Score
   
   Target Variable
   
@@ -149,4 +127,5 @@ Overall model accuracy is high (R² ≈ 0.98)
 Majority of extreme errors came from age ≤ 25
 
 Separate modeling reduced extreme errors to < 1% for older age group
+
 
