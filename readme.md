@@ -71,6 +71,52 @@
   
   This approach significantly reduced extreme prediction errors.
 
+🛠️ **Tools & Technologies Used**
+
+Programming & Libraries
+
+**Python** – Core programming language
+
+**Pandas** – Data manipulation and preprocessing
+
+**NumPy** – Numerical computations
+
+**Scikit-learn** –
+
+1. Model evaluation
+
+2. Feature scaling
+
+3. Hyperparameter tuning (RandomizedSearchCV)
+
+**XGBoost** – Regression models for premium prediction
+
+**Joblib** – Model and scaler persistence
+
+**Data Visualization & Analysis**
+
+**Matplotlib** – Basic plotting
+
+**Seaborn**– Statistical visualizations and EDA
+
+**Web App & Deployment**
+
+**Streamlit** – Interactive web application
+
+**Streamlit Cloud** – Model deployment
+
+**Version Control & Collaboration**
+
+**Git** – Version control
+
+**GitHub** – Code hosting and collaboration
+
+**Development Environment**
+
+**Jupyter Notebook** – Exploratory data analysis and model development
+
+**Git Bash** – Git operations
+
 📁 **Project Structure**
 health-insurance-premium-prediction-app/
 
@@ -127,5 +173,6 @@ Overall model accuracy is high (R² ≈ 0.98)
 Majority of extreme errors came from age ≤ 25
 
 Separate modeling reduced extreme errors to < 1% for older age group
+
 
 
