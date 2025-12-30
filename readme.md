@@ -8,7 +8,7 @@
   
   To improve accuracy, separate models are built for different age groups, as error analysis showed higher variance among younger customers.
 
-🚀 **Features**
+## 🚀 **Features**
 
   Interactive Streamlit web application
   
@@ -34,7 +34,7 @@
   
   Ready for cloud deployment
 
-📊 **Dataset Description**
+## 📊 **Dataset Description**
 
   The model is trained on structured insurance data containing:
   
@@ -48,7 +48,7 @@
 
 ⚠️ Note: The original dataset is proprietary and cannot be shared publicly.
 
-🤖 **Model Details**
+## 🤖 **Model Details**
 
 **Algorithm**: XGBoost Regressor
 
@@ -65,13 +65,16 @@
   Numerical features scaled
   
   Age-based Modeling Strategy
+  
   Age Group	Model Used
-  ≤ 25 years	model_young
-  > 25 years	model_rest
+  
+  1. ≤ 25 years	model_young
+  2. > 25 years	model_rest
+  
   
   This approach significantly reduced extreme prediction errors.
 
-🛠️ **Tools & Technologies Used**
+## 🛠️ **Tools & Technologies Used**
 
 Programming & Libraries
 
@@ -99,7 +102,7 @@ Programming & Libraries
 
 **Seaborn**– Statistical visualizations and EDA
 
-**Web App & Deployment**
+## **Web App & Deployment**
 
 **Streamlit** – Interactive web application
 
@@ -117,34 +120,8 @@ Programming & Libraries
 
 **Git Bash** – Git operations
 
-📁 **Project Structure**
-health-insurance-premium-prediction-app/
 
-│
-
-├── artifacts/
-
-│   ├── premium_model_young.joblib
-
-│   ├── premium_model_rest.joblib
-
-│   ├── premium_scaler_young.joblib
-
-│   └── premium_scaler_rest.joblib
-
-│
-
-├── main.py                 # Streamlit application
-
-├── predict_helper.py       # Preprocessing & prediction logic
-
-├── requirements.txt        # Project dependencies
-
-├── README.md               # Project documentation
-
-└── visuals/                # EDA & plots
-
-🖥️ **How to Use the App**
+## 🖥️ **How to Use the App**
 
   Open the Streamlit app in your browser through this URL : https://health-insurance-premium-prediction-app-6ddvctgdtvnxvhcjr5ehgz.streamlit.app/
   
@@ -164,7 +141,7 @@ health-insurance-premium-prediction-app/
   
   View the predicted insurance premium
 
-📈 **Results & Insights**
+## 📈 **Results & Insights**
 
 Overall model accuracy is high (R² ≈ 0.98)
 
@@ -173,6 +150,7 @@ Overall model accuracy is high (R² ≈ 0.98)
 Majority of extreme errors came from age ≤ 25
 
 Separate modeling reduced extreme errors to < 1% for older age group
+
 
 
 
