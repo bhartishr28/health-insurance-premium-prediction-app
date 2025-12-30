@@ -118,6 +118,8 @@ Programming & Libraries
 
 **Jupyter Notebook** – Exploratory data analysis and model development
 
+**PyCharm** - Development tool
+
 **Git Bash** – Git operations
 
 
@@ -150,6 +152,7 @@ Overall model accuracy is high (R² ≈ 0.98)
 Majority of extreme errors came from age ≤ 25
 
 Separate modeling reduced extreme errors to < 1% for older age group
+
 
 
 
