@@ -68,8 +68,8 @@
   
   Age Group	Model Used
   
-  1. ≤ 25 years	model_young
-  2. > 25 years	model_rest
+  1. Less than or equal to 25 years: model_young
+  2. greater than 25 years: model_rest
   
   
   This approach significantly reduced extreme prediction errors.
@@ -150,6 +150,7 @@ Overall model accuracy is high (R² ≈ 0.98)
 Majority of extreme errors came from age ≤ 25
 
 Separate modeling reduced extreme errors to < 1% for older age group
+
 
 
 
